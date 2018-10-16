@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mainform.cs">
+    <Compile Include="Mainform.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mainform.Designer.cs">
-      <DependentUpon>mainform.cs</DependentUpon>
+    <Compile Include="Mainform.Designer.cs">
+      <DependentUpon>Mainform.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
