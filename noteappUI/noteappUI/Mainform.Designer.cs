@@ -20,7 +20,7 @@
             base.Dispose(disposing);
         }
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label findlabel1;
         private System.Windows.Forms.ListBox SpislistBox1;
         private System.Windows.Forms.TextBox FindtextBox1;
         private System.Windows.Forms.Label Surname;
@@ -35,6 +35,11 @@
         private System.Windows.Forms.TextBox PhonetextBox4;
         private System.Windows.Forms.TextBox EmailtextBox5;
         private System.Windows.Forms.TextBox VktextBox6;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Button edit;
+        private System.Windows.Forms.Button remove;
+        private System.Windows.Forms.Button helpbutton1;
     }
 }
 
